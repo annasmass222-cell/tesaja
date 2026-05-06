@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Biodata Siswa</title>
+</head>
+<body>
+
+<h2 align="center">FORM BIODATA SISWA</h2>
+
+<form>
+    <table>
+        <tr>
+            <td>NIM</td>
+            <td><input type="text" name="nim"></td>
+        </tr>
+
+        <tr>
+            <td>Nama Lengkap</td>
+            <td><input type="text" name="nama"></td>
+        </tr>
+
+        <tr>
+            <td>Kelas</td>
+            <td>
+                <select name="kelas">
+                    <option>X</option>
+                    <option>XI</option>
+                    <option>XII</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jurusan</td>
+            <td>
+                <input type="radio" name="jurusan"> Teknik Informatika
+                <input type="radio" name="jurusan"> Sistem Informasi
+                <input type="radio" name="jurusan"> Multimedia
+            </td>
+        </tr>
+
+        <tr>
+            <td>Tempat & Tanggal Lahir</td>
+            <td>
+                <input type="text" name="tempat">
+                <input type="date" name="tanggal">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                <input type="radio" name="jk"> Laki-laki
+                <input type="radio" name="jk"> Perempuan
+            </td>
+        </tr>
+
+        <tr>
+            <td>Alamat</td>
+            <td><textarea name="alamat"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="email"> @gmail.com
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
